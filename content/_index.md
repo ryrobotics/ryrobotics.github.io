@@ -5,9 +5,9 @@ date: 2023-09-22
 type: landing
 
 sections:
-  - block: hero
-    content:
-      title: Ruoyu's Homepage
+  # - block: hero
+  #   content:
+  #     title: Ruoyu's Homepage
       # image:
       #   filename: hero-academic.png
       # cta:
@@ -30,11 +30,11 @@ sections:
       #   <div class="mb-3"></div>
       #   <!--GitHub Button JS-->
       #   <script async defer src="https://buttons.github.io/buttons.js"></script>
-    design:
-      background:
-        gradient_end: '#1976d2'
-        gradient_start: '#004ba0'
-        text_color_light: true
+    # design:
+    #   background:
+    #     gradient_end: '#1976d2'
+    #     gradient_start: '#004ba0'
+    #     text_color_light: true
   - block: about.biography
     id: about
     content:
