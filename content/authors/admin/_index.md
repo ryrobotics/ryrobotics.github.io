@@ -26,7 +26,7 @@ bio: My research interests include collision-resilient UAV design, motion planni
 
 # Interests to show in About widget
 interests:
-  - Collision Resilience
+  - Unmanned Aerial Vehicle (UAV) 
   - Motion Planning
   - Path Planning
 
@@ -65,7 +65,7 @@ social:
   #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'wry0117@outlook.com'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
