@@ -47,7 +47,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'mailto:rywang@link.cuhk.edu.hk'
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=ScgZ2cYAAAAJ
@@ -60,9 +60,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -71,5 +71,5 @@ email: ''
 highlight_name: true
 ---
 
-Ruoyu Wang is a PhD candidate at The Chinese University of Hong Kong. His research interests include collision-resilient UAV design, motion planning and drone inspection.
+I am a PhD candidate at The Chinese University of Hong Kong. My research interests include collision-resilient UAV design, motion planning and drone inspection.
 {style="text-align: justify;"}

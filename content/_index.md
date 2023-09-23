@@ -58,6 +58,7 @@ sections:
   #         icon: camera-retro
   #         icon_pack: fas
   - block: collection
+    id: publications
     content:
       title: Publications
       text: |-
