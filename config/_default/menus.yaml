@@ -10,15 +10,15 @@ main:
   - name: Publications
     url: '#featured'
     weight: 20
+  - name: Projects
+    url: '#projects'
+    weight: 30
   - name: RyarXiv
     url: 'https://ryrobotics.github.io/RyArxiv/'
-    weight: 30
+    weight: 40
   # - name: Posts
   #   url: '#posts'
   #   weight: 30
-  # - name: Projects
-  #   url: '#projects'
-  #   weight: 40
   # - name: Talks
   #   url: '#talks'
   #   weight: 50
