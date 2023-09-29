@@ -53,15 +53,23 @@
 
     </div>
     <div class="col-12 col-md-6 order-first {{$order}}">
-      {{ $resource := partial "functions/get_featured_image.html" $item }}
-
-      {{ with $resource }}
-        {{ $image := .Resize "540x webp" }}
-        {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
-          <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-              alt="{{ $item.Title }}" loading="lazy">
-        {{if $do_link}}</a>{{end}}
-      {{end}}
+      {{ if isset $item.Params "youtube_id" }}
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ $item.Params.youtube_id }}" allowfullscreen></iframe>
+        </div>
+      {{ else }}
+        {{ $resource := partial "functions/get_featured_image.html" $item }}
+        {{ with $resource }}
+          {{ $image := . }}
+          {{ if ne .MediaType.SubType "webp" }}
+              {{ $image = .Resize "1200x webp" }}
+          {{ end }}
+          {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
+            <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+                alt="{{ $item.Title }}" loading="lazy">
+          {{if $do_link}}</a>{{end}}
+        {{end}}
+      {{ end }}
     </div>
   </div>
 </div>
