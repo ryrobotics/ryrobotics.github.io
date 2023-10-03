@@ -22,7 +22,7 @@ organizations:
     url: https://www.cuhk.edu.hk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include collision-resilient UAV design, motion planning and drone inspection.
+bio: My research interests include collision resilient UAV design, motion planning and drone inspection.
 
 # Interests to show in About widget
 interests:
@@ -71,5 +71,5 @@ email: 'wry0117@outlook.com'
 highlight_name: true
 ---
 
-I am a PhD candidate at The Chinese University of Hong Kong. My research interests include collision-resilient UAV design, motion planning and drone inspection.
+I am a PhD candidate at The Chinese University of Hong Kong. My research interests include collision resilient UAV design, motion planning and drone inspection.
 {style="text-align: justify;"}
