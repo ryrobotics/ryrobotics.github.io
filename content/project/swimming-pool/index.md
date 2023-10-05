@@ -8,7 +8,7 @@ date: '2023-05-16T00:00:00Z'
 # Optional external URL for project (replaces project detail page).
 # external_link: 'https://www.youtube.com/watch?v=I2o1NfcY26Q'
 
-# youtube_id: "I2o1NfcY26Q"
+youtube_id: "LWyuESKM22U"
 
 # image:
 #   caption: Photo by rawpixel on Unsplash

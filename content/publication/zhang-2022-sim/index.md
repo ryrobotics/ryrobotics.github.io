@@ -42,4 +42,7 @@ publication_types:
 - '1'
 abstract: ''
 publication: '*2022 International Conference on Unmanned Aircraft Systems (ICUAS)*'
+
+url_code: "https://github.com/ryrobotics/Blender-OSM-AirSim"
+
 ---
