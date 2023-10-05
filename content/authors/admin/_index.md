@@ -18,7 +18,7 @@ role: PhD Candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: The Chinese University of Hong Kong
+  - name: Chinese University of Hong Kong
     url: https://www.cuhk.edu.hk/
 
 # Short bio (displayed in user profile at end of posts)
@@ -26,9 +26,9 @@ bio: My research interests include collision resilient UAV design, motion planni
 
 # Interests to show in About widget
 interests:
-  - Unmanned Aerial Vehicle (UAV) 
+  - Collision-resilient UAV
+  - UAV applications
   - Motion Planning
-  - Path Planning
 
 # Education to show in About widget
 education:
@@ -71,5 +71,5 @@ email: 'wry0117@outlook.com'
 highlight_name: true
 ---
 
-I am a PhD candidate at The Chinese University of Hong Kong. My research interests include collision resilient UAV design, motion planning and drone inspection.
+I am a PhD candidate in the Mechanical and Automation Engineering department at The Chinese University of Hong Kong. My research focuses on unmanned aerial vehicles (UAVs), specifically in the areas of collision-resilient UAV, safety-aware motion planning, and the application of drone inspection. I am passionate about designing and implementing autonomous algorithms and hardware systems that enhance the intelligence and resilience of UAVs in real-world environments.
 {style="text-align: justify;"}
