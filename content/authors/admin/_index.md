@@ -71,5 +71,5 @@ email: 'wry0117@outlook.com'
 highlight_name: true
 ---
 
-I am a PhD candidate in the Mechanical and Automation Engineering department at The Chinese University of Hong Kong. My research focuses on unmanned aerial vehicles (UAVs), specifically in the areas of collision-resilient UAV, safety-aware motion planning, and the application of drone inspection. I am passionate about designing and implementing autonomous algorithms and hardware systems that enhance the intelligence and resilience of UAVs in real-world environments.
+I am a PhD candidate in the Mechanical and Automation Engineering department at The Chinese University of Hong Kong. My research focuses on unmanned aerial vehicles (UAVs), specifically in the areas of collision-resilient UAV, safety-aware motion planning, and autonomous drone inspection. I am passionate about designing and implementing algorithms and hardware systems that enhance the intelligence and resilience of UAVs in real-world applications.
 {style="text-align: justify;"}
