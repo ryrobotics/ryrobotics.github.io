@@ -1,29 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Inspection | Ruoyu's Homepage</title><link>https://ryrobotics.github.io/tag/inspection/</link><atom:link href="https://ryrobotics.github.io/tag/inspection/index.xml" rel="self" type="application/rss+xml"/><description>Inspection</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 May 2023 00:00:00 +0000</lastBuildDate><image><url>https://ryrobotics.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url><title>Inspection</title><link>https://ryrobotics.github.io/tag/inspection/</link></image><item><title>Autonomous Drone Inspection for Swimming Pool Ceiling</title><link>https://ryrobotics.github.io/project/swimming-pool/</link><pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate><guid>https://ryrobotics.github.io/project/swimming-pool/</guid><description>&lt;h1 id="1-drones-components">1. Drone’s components&lt;/h1>
-&lt;h3 id="4k-hd-camera">4K HD camera:&lt;/h3>
-&lt;p>This camera offers impressive capabilities including 20MP photo capture, 4K@30FPS video recording, and Electronic Image Stabilization.&lt;/p>
-&lt;h3 id="brushless-dc-motor--propeller">Brushless DC Motor &amp;amp; Propeller:&lt;/h3>
-&lt;p>Motors are responsible for spinning the propellers and generating thrust (up to a maximum of 6.4kg) to lift the drone off the ground.&lt;/p>
-&lt;h3 id="onboard-computer">Onboard Computer&lt;/h3>
-&lt;p>Onboard computer provides powerful computing capabilities for autonomous inspection algorithms and data collection.&lt;/p>
-&lt;h3 id="carbon-fiber-composite-cage">Carbon Fiber Composite Cage&lt;/h3>
-&lt;p>The lightweight but reliable cage holds all the components together and protects the internal components from damage.&lt;/p>
-&lt;h3 id="3d-lidar">3D LiDAR&lt;/h3>
-&lt;p>This compact yet powerful 3D LiDAR provides precise 360-degree data collection and perception, offering centimeter-level accuracy.&lt;/p>
-&lt;h3 id="flight-controller">Flight Controller&lt;/h3>
-&lt;p>The flight controller is like the brain of the drone. It contains sensors (such as gyroscopes and accelerometers) and processes data to stabilize and control the drone&amp;rsquo;s movements.&lt;/p>
-&lt;h3 id="electronic-speed-controllers-escs">Electronic Speed Controllers (ESCs)&lt;/h3>
-&lt;p>ESCs control the speed and direction of each motor. They receive commands from the flight controller and adjust the power sent to the motors accordingly.&lt;/p>
-&lt;h3 id="battery">Battery&lt;/h3>
-&lt;p>The battery supplies power to the drone. It is a rechargeable lithium polymer (LiPo) battery with a capacity of 6000 mAh.&lt;/p>
-&lt;h1 id="2-advantages-of-our-drone">2. Advantages of our drone&lt;/h1>
-&lt;h3 id="speed">Speed&lt;/h3>
-&lt;p>The drone is designed for quick deployment and ease of use. In our swimming pool trial, we completed the ceiling inspection, including pre-flight preparations and actual flights (about 20 mins), in just 2 hours.&lt;/p>
-&lt;h3 id="safety">Safety&lt;/h3>
-&lt;p>To ensure safety, the drone is equipped with a customized cage that fully covers its body, providing ample protection for both the drone and the surrounding facilities. Additionally, autonomous flight capabilities and intelligent collision avoidance algorithms contribute to safe and controlled operations.&lt;/p>
-&lt;h3 id="accuracy">Accuracy&lt;/h3>
-&lt;p>With its powerful 3D LiDAR (centimeter-level accuracy) and advanced localization algorithm, the drone can provide high-accuracy point cloud data collection. This precision allows operators to precisely identify and locate defects in the following inspections.&lt;/p>
-&lt;h3 id="flexibility">Flexibility&lt;/h3>
-&lt;p>The drone&amp;rsquo;s design is tailored for inspections, making it adaptable to various application scenarios. For instance, an up-looking camera is included specifically for ceiling inspections, enhancing its performance in our swimming pool trial.&lt;/p></description></item><item><title>Autonomous Indoor Drone Inspection and Modeling System</title><link>https://ryrobotics.github.io/project/drone-inspection/</link><pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate><guid>https://ryrobotics.github.io/project/drone-inspection/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Inspection | Ruoyu's Homepage</title><link>https://ryrobotics.github.io/tag/inspection/</link><atom:link href="https://ryrobotics.github.io/tag/inspection/index.xml" rel="self" type="application/rss+xml"/><description>Inspection</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 May 2023 00:00:00 +0000</lastBuildDate><image><url>https://ryrobotics.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url><title>Inspection</title><link>https://ryrobotics.github.io/tag/inspection/</link></image><item><title>Autonomous Drone Inspection for Swimming Pool Ceiling</title><link>https://ryrobotics.github.io/project/swimming-pool/</link><pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate><guid>https://ryrobotics.github.io/project/swimming-pool/</guid><description/></item><item><title>Autonomous Indoor Drone Inspection and Modeling System</title><link>https://ryrobotics.github.io/project/drone-inspection/</link><pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate><guid>https://ryrobotics.github.io/project/drone-inspection/</guid><description>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div></description></item></channel></rss>
