@@ -18,15 +18,15 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'PhD candidate in robotics at The Chinese University of Hong Kong (CUHK)'
+    twitter: 'ryrobotics'
   analytics:
     google_analytics: 'G-2WJ6E9Y1WB'
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''  
   verification:
-    google: ''
+    google: 'Du_W_qs6r7cuM-Nf0eBKE0a_-2mgQHeX6MNaUuafZ-k'
     baidu: ''
 
 # Site header
@@ -45,9 +45,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Ruoyu Wang'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
