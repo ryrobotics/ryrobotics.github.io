@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Air Bumper: A Collision Detection and Reaction Framework for Autonomous MAV
-  Navigation'
+title: 'Air Bumper: A Collision Detection and Reaction Framework for Autonomous MAV Navigation'
 subtitle: ''
 summary: ''
 authors:
@@ -13,8 +12,8 @@ authors:
 - Ben M Chen
 tags: []
 categories: []
-date: '2023-07-12'
-lastmod: 2023-09-23T14:05:46Z
+date: '2024-05-13'
+lastmod: 2024-02-20T14:05:46Z
 featured: false
 draft: false
 
@@ -37,9 +36,9 @@ publishDate: '2023-09-23T14:05:45.902318Z'
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 abstract: ''
-publication: '*arXiv preprint arXiv:2307.06101*'
+publication: '*2024 IEEE International Conference on Robotics and Automation (ICRA)*'
 
 url_code: "https://github.com/ryrobotics/air_bumper"
 url_video: 'https://www.youtube.com/watch?v=v7RkET2Yfes'
