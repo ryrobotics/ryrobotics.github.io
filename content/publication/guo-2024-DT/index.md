@@ -1,19 +1,22 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Air Bumper: A Collision Detection and Reaction Framework for Autonomous MAV Navigation'
+title: 'A Self-Evolving Digital Twin System Architecture for Indoor UAV Management based on Online Deep Learning'
 subtitle: ''
 summary: ''
 authors:
-- admin
 - Zixuan Guo
+- admin
+- Chuanxiang Gao
 - Yizhou Chen
-- Xinyi Wang
 - Ben M. Chen
+author_notes:
+- ""
+- "Corresponding Author"
 tags: []
 categories: []
-date: '2024-05-13'
-lastmod: 2024-02-20T14:05:46Z
+date: '2024-03-15'
+lastmod: 2024-03-15T14:05:46Z
 featured: false
 draft: false
 
@@ -31,16 +34,13 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-09-23T14:05:45.902318Z'
+publishDate: '2024-03-10T14:05:45.902318Z'
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["3"]
 abstract: ''
-publication: '*2024 IEEE International Conference on Robotics and Automation (ICRA)*'
-
-url_code: "https://github.com/ryrobotics/air_bumper"
-url_video: 'https://www.youtube.com/watch?v=v7RkET2Yfes'
+publication: '*Submitted to IROS 2024*'
 
 ---
