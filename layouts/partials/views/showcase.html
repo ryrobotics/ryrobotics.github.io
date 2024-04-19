@@ -53,23 +53,24 @@
 
     </div>
     <div class="col-12 col-md-6 order-first {{$order}}">
-      {{ if isset $item.Params "youtube_id" }}
+        {{ if isset $item.Params "youtube_id" }}
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ $item.Params.youtube_id }}" allowfullscreen></iframe>
         </div>
-      {{ else }}
-        {{ $resource := partial "functions/get_featured_image.html" $item }}
-        {{ with $resource }}
-          {{ $image := . }}
-          {{ if ne .MediaType.SubType "webp" }}
-              {{ $image = .Resize "1200x webp" }}
-          {{ end }}
-          {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
-            <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-                alt="{{ $item.Title }}" loading="lazy">
-          {{if $do_link}}</a>{{end}}
-        {{end}}
-      {{ end }}
+        {{ else }}
+            {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
+
+            {{ with $resource }}
+                {{/* Use CSS to expand images to consistent widths rather than just Hugo as Hugo can significantly increase the
+                filesize of GIFs when processing them, e.g. 400kB --> 1.5MB */}}
+                {{ $image := . }}
+                {{ if ne $image.MediaType.SubType "webp" }}{{ $image = $image.Process "resize 1200x webp" }}{{ end }}
+                {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
+                <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+                    alt="{{ $item.Title }}" loading="lazy" style="width: 1200px; height: auto; object-fit: cover;">
+                {{if $do_link}}</a>{{end}}
+            {{end}}
+        {{ end }}
     </div>
   </div>
 </div>
