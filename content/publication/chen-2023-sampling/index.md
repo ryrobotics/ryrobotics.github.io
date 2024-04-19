@@ -32,8 +32,8 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 publishDate: '2023-09-23T14:05:46.010778Z'
-publication_types:
-- '1'
+publication_types: ['paper-conference']
+
 abstract: ''
 publication: '*2023 IEEE International Conference on Robotics and Automation (ICRA)*'
 

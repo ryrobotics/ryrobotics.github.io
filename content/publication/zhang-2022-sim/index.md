@@ -38,8 +38,8 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 publishDate: '2023-09-23T14:05:45.789036Z'
-publication_types:
-- '1'
+publication_types: ['paper-conference']
+
 abstract: ''
 publication: '*2022 International Conference on Unmanned Aircraft Systems (ICUAS)*'
 
