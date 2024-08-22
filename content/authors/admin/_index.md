@@ -22,13 +22,13 @@ organizations:
     url: https://www.cuhk.edu.hk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include collision resilient UAV design, motion planning and drone inspection.
+bio: My research interests include multi-modal and collision resilient UAV design, control, and motion planning.
 
 # Interests to show in About widget
 interests:
-  - Collision-resilient UAV
-  - UAV applications
-  - Motion Planning
+  - Robot Design
+  - UAV Applications
+  - Model Predictive Control
 
 # Education to show in About widget
 education:
@@ -71,5 +71,5 @@ email: 'wry0117@outlook.com'
 highlight_name: true
 ---
 
-I am a PhD candidate in the Mechanical and Automation Engineering department at The Chinese University of Hong Kong. My research focuses on unmanned aerial vehicles (UAVs), specifically in the areas of collision-resilient UAV, safety-aware motion planning, and autonomous drone inspection. I am passionate about designing and implementing algorithms and hardware systems that enhance the intelligence and resilience of UAVs in real-world applications.
+I am a PhD candidate in the Mechanical and Automation Engineering department at The Chinese University of Hong Kong. My research focuses on unmanned aerial vehicles (UAVs), specifically in the areas of collision-resilient UAV, safety-aware motion planning, and UAV model predictive control. I am passionate about designing and implementing algorithms and hardware systems that enhance the intelligence and resilience of UAVs in real-world applications.
 {style="text-align: justify;"}
