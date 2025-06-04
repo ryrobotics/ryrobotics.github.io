@@ -35,7 +35,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 publishDate: '2024-03-10T14:05:45.902318Z'
-publication_types: ["article"]
+publication_types: ['paper-conference']
 
 abstract: ''
 publication: '*2024 IEEE International Conference on Robotics and Biomimetics (ROBIO)*'

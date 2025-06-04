@@ -26,9 +26,9 @@ bio: My research interests include multi-modal and collision resilient UAV desig
 
 # Interests to show in About widget
 interests:
-  - Robot Design
-  - UAV Applications
-  - Model Predictive Control
+  - Engineering Education
+  - Robot System Design
+  - Control & Planning
 
 # Education to show in About widget
 education:
@@ -45,9 +45,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:rywang@link.cuhk.edu.hk'
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: 'mailto:rywang@link.cuhk.edu.hk'
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=ScgZ2cYAAAAJ
