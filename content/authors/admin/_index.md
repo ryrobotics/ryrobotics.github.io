@@ -14,15 +14,15 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD Candidate
+role: Lecturer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Chinese University of Hong Kong
-    url: https://www.cuhk.edu.hk/
+  - name: The University of Hong Kong
+    url: https://hku.hk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include multi-modal and collision resilient UAV design, control, and motion planning.
+bio: My research interests include novel robots design, control, and motion planning.
 
 # Interests to show in About widget
 interests:
@@ -71,5 +71,5 @@ email: 'wry0117@outlook.com'
 highlight_name: true
 ---
 
-I am a PhD candidate in the Mechanical and Automation Engineering department at The Chinese University of Hong Kong. My research focuses on unmanned aerial vehicles (UAVs), specifically in the areas of collision-resilient UAV, safety-aware motion planning, and UAV model predictive control. I am passionate about designing and implementing algorithms and hardware systems that enhance the intelligence and resilience of UAVs in real-world applications.
+I am a Lecturer in the Faculty of Engineering at The University of Hong Kong (HKU), where I work with our teaching team to design and coordinate active learning initiatives, including the flagship Engineering Challenges course. My focus is on advancing immersive, hands-on engineering education that brings together autonomous systems, intelligent robotics, and AI applications, empowering students to tackle real-world problems from concept to prototype.
 {style="text-align: justify;"}
