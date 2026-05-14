@@ -29,8 +29,30 @@ layout: default
         {% endif %}
         {% if page.social %}
           <div class="social">
-            <div class="contact-icons">{% social_links %}</div>
+            <div class="contact-icons">
+              <a href="#" title="Email" id="email-link" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              {% social_links %}
+            </div>
 
+            <script>
+              document.addEventListener("DOMContentLoaded", function () {
+                const link = document.getElementById("email-link");
+
+                if (!link) return;
+
+                link.addEventListener("click", function (event) {
+                  event.preventDefault();
+
+                  const user = ["ru", "oyu"].join("");
+                  const domain = ["hku", "hk"].join(".");
+                  const email = user + "@" + domain;
+
+                  window.location.href = "mailto:" + email;
+                });
+              });
+            </script>
             <div class="contact-note">{{ site.contact_note }}</div>
           </div>
         {% endif %}
@@ -44,6 +66,7 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
+      <hr class="my-4">
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
@@ -52,6 +75,7 @@ layout: default
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
+      <hr class="my-4">
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
@@ -60,12 +84,25 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
+      <hr class="mb-5">
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
-      {% include selected_papers.liquid %}
+      <div class="selected-section">
+        {% include selected_papers.liquid %}
+        <a href="{{ '/publications/' | relative_url }}" style="color: var(--global-theme-color); font-weight: bolder; display: inline-block; margin-top: 0.75rem;">See all publications &rarr;</a>
+      </div>
     {% endif %}
 
+    <!-- Selected projects -->
+    {% if page.selected_projects and site.projects and site.projects.size > 0 %}
+      <hr class="my-5">
+      <h2 id="selected-projects" style="margin-bottom: 2.5rem;">
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Selected Projects</a>
+      </h2>
+      <div class="selected-section">
+        {% include selected_projects.liquid %}
+      </div>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}

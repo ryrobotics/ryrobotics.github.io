@@ -1,0 +1,35 @@
+<div class="selected-projects">
+  {% assign selected_projects_limit = page.selected_projects.limit | default: 3 %}
+  {% assign selected_projects = site.projects | sort: 'importance' %}
+
+  {% for project in selected_projects limit: selected_projects_limit %}
+    <div class="row mb-5 align-items-center">
+      <div class="col-12 col-sm-6">
+        {% if project.youtube_id %}
+          <div class="embed-responsive embed-responsive-16by9 rounded shadow-sm" style="overflow: hidden;">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/{{ project.youtube_id }}"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        {% elsif project.img %}
+          {% include figure.liquid loading="eager" path=project.img sizes="(max-width: 576px) 100vw, 40vw" alt=project.title class="img-fluid rounded shadow-sm" %}
+        {% endif %}
+      </div>
+
+      <div class="col-12 col-sm-6 mt-3 mt-sm-0">
+        <h4 class="mt-0 mb-1 font-weight-bolder">
+          <a href="{% if project.external_link %}{{ project.external_link }}{% elsif project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}"{% if project.external_link %} target="_blank" rel="noopener noreferrer"{% endif %} style="color: inherit">
+            {{- project.title -}}
+          </a>
+        </h4>
+        {% if project.description %}
+          <p class="text-muted mb-0">{{ project.description }}</p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
