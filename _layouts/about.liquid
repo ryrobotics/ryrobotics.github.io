@@ -4,12 +4,8 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
+     {{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %}
+     {{ site.last_name }}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
@@ -20,10 +16,9 @@ layout: default
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% assign profile_image_class = 'img-fluid shadow-sm rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid shadow-sm rounded' %}
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
@@ -31,6 +26,35 @@ layout: default
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
           %}
+        {% endif %}
+        {% if page.social %}
+          <div class="social">
+            <div class="contact-icons">
+              <a href="#" title="Email" id="email-link" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              {% social_links %}
+            </div>
+
+            <script>
+              document.addEventListener("DOMContentLoaded", function () {
+                const link = document.getElementById("email-link");
+
+                if (!link) return;
+
+                link.addEventListener("click", function (event) {
+                  event.preventDefault();
+
+                  const user = ["ru", "oyu"].join("");
+                  const domain = ["hku", "hk"].join(".");
+                  const email = user + "@" + domain;
+
+                  window.location.href = "mailto:" + email;
+                });
+              });
+            </script>
+            <div class="contact-note">{{ site.contact_note }}</div>
+          </div>
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -42,14 +66,16 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
+      <hr style="margin: 1.5rem 0;">
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
+      <hr style="margin: 1.5rem 0;">
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
@@ -58,18 +84,24 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
+      <hr style="margin: 1rem 0 2.5rem;">
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
-      {% include selected_papers.liquid %}
+      <div class="selected-section">
+        {% include selected_papers.liquid %}
+        <a href="{{ '/publications/' | relative_url }}" style="color: var(--global-theme-color); font-weight: bolder; display: inline-block; margin-top: 0.75rem;">See all publications &rarr;</a>
+      </div>
     {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
+    <!-- Selected projects -->
+    {% if page.selected_projects and site.projects and site.projects.size > 0 %}
+      <hr style="margin: 2.5rem 0 2.5rem;">
+      <h2 id="selected-projects" style="margin-bottom: 2.5rem;">
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Selected Projects</a>
+      </h2>
+      <div class="selected-section">
+        {% include selected_projects.liquid %}
       </div>
     {% endif %}
 
