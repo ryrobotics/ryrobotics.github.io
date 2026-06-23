@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ryrobotics.github.io//sitemap.xml
+Sitemap: https://ruoyuwang.org/sitemap.xml
