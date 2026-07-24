@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-08'
+  last_updated: '2026-07-24'
 papers:
   ScgZ2cYAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -34,6 +34,6 @@ papers:
     title: A UAV-based explore-then-exploit system for autonomous indoor facility inspection and scene reconstruction
     year: '2023'
   ScgZ2cYAAAAJ:u5HHmVD_uO8C:
-    citations: 19
+    citations: 20
     title: 'Sim-in-real: Digital twin based uav inspection process'
     year: '2022'
