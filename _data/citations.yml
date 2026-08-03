@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-24'
+  last_updated: '2026-08-03'
 papers:
   ScgZ2cYAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -14,8 +14,8 @@ papers:
     title: 'Tilt-Ropter: A Fully Actuated Hybrid Aerial-Terrestrial Vehicle with Tilt Rotors and Passive Wheels'
     year: '2026'
   ScgZ2cYAAAAJ:8k81kl-MbHgC:
-    citations: 8
-    title: 'Air bumper: A collision detection and reaction framework for autonomous mav navigation'
+    citations: 9
+    title: 'Air bumper: A collision detection and reaction framework for autonomous MAV navigation'
     year: '2024'
   ScgZ2cYAAAAJ:IjCSPb-OGe4C:
     citations: 2
