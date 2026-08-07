@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-07'
 papers:
   ScgZ2cYAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -13,6 +13,10 @@ papers:
     citations: 0
     title: 'Tilt-Ropter: A Fully Actuated Hybrid Aerial-Terrestrial Vehicle with Tilt Rotors and Passive Wheels'
     year: '2026'
+  ScgZ2cYAAAAJ:4DMP91E08xMC:
+    citations: 0
+    title: 'CLIO: Coordinate User Visual Attention with Audio Narratives for Enhanced Engagement'
+    year: '2026'
   ScgZ2cYAAAAJ:8k81kl-MbHgC:
     citations: 9
     title: 'Air bumper: A collision detection and reaction framework for autonomous MAV navigation'
@@ -25,12 +29,16 @@ papers:
     citations: 0
     title: A Traffic Conflict Identification and Severity Assessment Method Based on Multi-Vehicle Trajectory Prediction
     year: '2025'
+  ScgZ2cYAAAAJ:Wp0gIr-vW9MC:
+    citations: 0
+    title: 'CLIO: A Tour Guide Robot with Co-speech Actions for Visual Attention Guidance and Enhanced User Engagement'
+    year: '2025'
   ScgZ2cYAAAAJ:hqOjcs7Dif8C:
     citations: 0
     title: A Self-Evolving Digital Twin System Architecture for Indoor UAV Management Based on Online Learning
     year: '2024'
   ScgZ2cYAAAAJ:u-x6o8ySG0sC:
-    citations: 62
+    citations: 63
     title: A UAV-based explore-then-exploit system for autonomous indoor facility inspection and scene reconstruction
     year: '2023'
   ScgZ2cYAAAAJ:u5HHmVD_uO8C:
