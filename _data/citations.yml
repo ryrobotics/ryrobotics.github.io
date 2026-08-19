@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-07'
+  last_updated: '2026-08-19'
 papers:
   ScgZ2cYAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -26,7 +26,7 @@ papers:
     title: An interactive system for multiple-task linear temporal logic path planning
     year: '2023'
   ScgZ2cYAAAAJ:MXK_kJrjxJIC:
-    citations: 0
+    citations: 1
     title: A Traffic Conflict Identification and Severity Assessment Method Based on Multi-Vehicle Trajectory Prediction
     year: '2025'
   ScgZ2cYAAAAJ:Wp0gIr-vW9MC:
@@ -38,7 +38,7 @@ papers:
     title: A Self-Evolving Digital Twin System Architecture for Indoor UAV Management Based on Online Learning
     year: '2024'
   ScgZ2cYAAAAJ:u-x6o8ySG0sC:
-    citations: 63
+    citations: 64
     title: A UAV-based explore-then-exploit system for autonomous indoor facility inspection and scene reconstruction
     year: '2023'
   ScgZ2cYAAAAJ:u5HHmVD_uO8C:
