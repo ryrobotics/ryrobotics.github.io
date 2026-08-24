@@ -8,5 +8,4 @@ term: 2026 Summer
 location: HKU Zhangjiang (Shanghai) Campus
 time: 22 June-10 July, 9:00-17:30
 course_id: lat101
-
 ---
