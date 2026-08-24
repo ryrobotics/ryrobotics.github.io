@@ -30,29 +30,11 @@ layout: default
         {% if page.social %}
           <div class="social">
             <div class="contact-icons">
-              <a href="#" title="Email" id="email-link" aria-label="Email">
-                <i class="fa-solid fa-envelope"></i>
-              </a>
-              {% social_links %}
+              {% capture rendered_social_links %}
+                {% social_links %}
+              {% endcapture %}
+              {{ rendered_social_links | al_email_protect_html }}
             </div>
-
-            <script>
-              document.addEventListener("DOMContentLoaded", function () {
-                const link = document.getElementById("email-link");
-
-                if (!link) return;
-
-                link.addEventListener("click", function (event) {
-                  event.preventDefault();
-
-                  const user = ["ru", "oyu"].join("");
-                  const domain = ["hku", "hk"].join(".");
-                  const email = user + "@" + domain;
-
-                  window.location.href = "mailto:" + email;
-                });
-              });
-            </script>
             <div class="contact-note">{{ site.contact_note }}</div>
           </div>
         {% endif %}
