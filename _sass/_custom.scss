@@ -1,0 +1,88 @@
+@use "sass:color";
+@use "variables" as v;
+
+$blue-color-light: color.adjust(v.$blue-color, $lightness: 25%);
+
+// Keep the site's blue accent and code surface in both theme palettes.
+:root {
+  --global-theme-color: #{v.$blue-color};
+  --global-hover-color: #{v.$blue-color};
+  --global-code-bg-color: #{color.change(v.$blue-color, $alpha: 0.05)};
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #{$blue-color-light};
+  --global-hover-color: #{$blue-color-light};
+}
+
+// Match the site's compact contact icon sizing and hover treatment.
+.social .contact-icons {
+  font-size: 2rem;
+}
+
+.social .contact-icons a img {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.social .contact-icons a svg {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.social .contact-icons a svg image {
+  width: 2rem;
+  height: 2rem;
+}
+
+.social .contact-icons a i::before,
+.social .contact-icons a:hover i::before {
+  color: var(--global-theme-color);
+}
+
+.social .contact-icons a:hover {
+  opacity: 0.8;
+}
+
+// Match the visible Tailwind shadow-sm layers only on gem-rendered images.
+.profile img.z-depth-1,
+ol.bibliography li img.preview.z-depth-1 {
+  box-shadow:
+    0 1px 3px 0 rgb(0 0 0 / 0.1),
+    0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+// Emphasize only the owner's author entry, without an underline.
+.publications ol.bibliography li .author > em {
+  border-bottom: none;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+// Preserve the existing narrow-screen profile and selected-section layout.
+@media (max-width: 576px) {
+  .container {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .profile {
+    float: none !important;
+    width: 65%;
+    max-width: 240px;
+    margin: 2rem auto 1.5rem !important;
+    display: block;
+  }
+
+  .profile .social {
+    margin-top: 0.5rem;
+    margin-bottom: -0.5rem;
+  }
+
+  .selected-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
